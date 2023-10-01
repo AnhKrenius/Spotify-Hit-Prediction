@@ -1,4 +1,7 @@
 # Spotify-Hit-Prediction
+The Spotify Hit Predictor dataset (1960-2019) is a collection of features for tracks obtained using Spotify's Web API. Each track in the dataset is labeled either '1' or '0' ('Hit' or 'Flop') based on certain criteria defined by the author. The attributes of the dataset include information on the track, artist, URI, danceability, energy, loudness, speechiness, acousticness, instrumentalness, valence, duration in milliseconds, chorus hit, and target.
+
+It should be noted that this dataset was created by merging two latest files together to form a more comprehensive dataset. The dataset is intended to be used for predicting whether a given track is likely to be a 'Hit' or a 'Flop'. In order to achieve this goal, we will explore and analyze the data, clean and preprocess it as necessary, and train several machine learning models using the available features. Finally, we will evaluate the models and choose the best one for predicting track success.
 ## SOURCES
 The Dataset is orignally derived from the website Kaggle.com you can access it from here https://colab.research.google.com/drive/1o_GxXAg1AvyuLSLhqld-7b7N-dOsd1t9#scrollTo=itKF1GJtjJE2&line=2&uniqifier=1
 
